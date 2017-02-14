@@ -1,0 +1,92 @@
+{
+    
+    "root": true,
+    /*Define your environments here. Each environment comes with its own set of defined global variables*/
+    "env": {
+        /*Support es6 features like arrow-function, blockBindings and don't warn about them*/
+        "es6": false,
+        "node": true,
+        "browser": false,
+        /*defines require() and define() as global variables as per the amd spec.*/
+        "amd": true,
+        "mocha": true,
+        /*If you want to use jquery*/
+        "jquery": true
+    },
+    "globals": {
+        "browser":false,
+        "elements":false,
+        "expect":false,
+        "data":false,
+        "testCaseTimeout":false,
+        "waitTimeout":false,
+        "username":true,
+        "automationTests":false,
+        "userinfo":false,
+        "cleanUpTime":false,
+        "logoutTimeout":false,
+        "getUser":false,
+        "sessionStorage":false,
+        "const":false
+        /*Write your global variables here to save them from no-undef rule of ESLint*/
+        /*
+        "var1": false
+        "var2": false
+        Here true means that the global variable may be overwritten and false means that the global variable might not be overwritten
+        */
+    },
+    /*Any ecmascript 6 feature that you want to explicity enable or disable can be added here*/
+    "ecmaFeatures": {
+        /*Support javascript classes and don't warn about them*/
+        "classes": true,
+        "modules": false,
+        "blockBindings": true
+    },
+    /*Any plugins that you have installed for eslint can be added here*/
+    "plugins": [
+        /*
+        For example Eslint has a plugin for backbone.js named eslint-plugin-backbone
+        For using it you first have to install that and then add 'backbone' to this array
+        */
+    ],
+    "rules": {
+        /*Indent with tabs*/
+        "indent": [
+            2,
+            4
+        ],
+        /*Follow linux style line breaking and warn if other*/
+        "linebreak-style": [
+            0,
+            "unix"
+        ],
+        /*Always end statements with semi-columns*/
+        "semi": [
+            2,
+            "always"
+        ],
+        "eol-last": 2,
+        "brace-style": [2, "1tbs"],
+        "space-before-blocks": [2, "always"],
+        "space-before-keywords": [2, "always"],
+        "space-after-keywords": [2, "always"],
+        "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
+        "block-spacing": [2, "always"],
+        "camelcase": [2, {"properties": "never"}],
+        "vars-on-top": [2],
+        "no-multi-spaces": [2],
+        "strict": [2, "global"],
+        "eqeqeq": [2, "smart"],
+        "no-eval": [2],
+        "no-implied-eval": [2],
+        "no-spaced-func": [2],
+        "no-console": 0,
+        /*Warn about declared but unused variables but dont fail on this as some callback arguments might not be used*/
+        "no-unused-vars": [1, { "args": "none" }]
+        /*To configure a rule which is inside a plugin we need to prefix the rule name with plugin name and a /
+        Example:backbone/rule1: [2],
+        */
+    },
+    /*Turn on recommended rules*/
+    "extends": "eslint:recommended"
+}

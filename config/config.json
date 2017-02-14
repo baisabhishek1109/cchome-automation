@@ -1,0 +1,6 @@
+{
+    "stage" : {
+        "endpoint": "https://stage.cchome.adobe.com",
+        "environment": "ccv-stage"
+    }
+}

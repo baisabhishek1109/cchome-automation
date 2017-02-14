@@ -1,0 +1,19 @@
+{
+    "win32": {
+        "chrome": {
+            "browserName": "chrome"
+        },
+        "firefox": {
+            "browserName": "firefox"
+        }
+    },
+    "darwin": {
+        "chrome": {
+            "browserName": "chrome"
+        },
+        "firefox": { 
+            "browserName": "firefox",
+            "firefox_profile": "blank"
+        }
+    }
+}

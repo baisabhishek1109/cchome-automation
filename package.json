@@ -1,0 +1,40 @@
+{
+  "name": "cc_home",
+  "version": "1.1.0",
+  "description": "automation tests suite for cc_home app",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.corp.adobe.com/arbansal/CC_HOME-Protractor-Automation"
+  },
+  "keywords": [
+    "cc",
+    "home",
+    "cc home"
+  ],
+  "author": "Abhishek&Armaan",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "glob": "^7.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-eslint": "^1.1.1",
+    "gulp-protractor": "^3.0.0",
+    "gulp-run-sequence": "^0.3.2",
+    "jasmine": "^2.5.2",
+    "jasmine-expect": "^3.0.1",
+    "jasmine-reporters": "^2.2.0",
+    "phantomjs-prebuilt": "^2.1.13",
+    "protractor-flake": "^2.1.2",
+    "protractor-jasmine2-html-reporter": "0.0.6",
+    "system-sleep": "^1.0.0-k",
+    "gulp-angular-protractor": "^0.2.0",
+    "jasmine-spec-reporter": "^2.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "phantomjs": "^2.1.7",
+    "protractor": "latest"
+  }
+}

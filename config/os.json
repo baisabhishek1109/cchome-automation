@@ -1,0 +1,8 @@
+{
+    "win32": {
+           "command" : "node_modules\\.bin\\webdriver-manager"
+    },
+    "darwin": { 
+           "command" : "./node_modules/protractor/bin/webdriver-manager"
+    }
+}

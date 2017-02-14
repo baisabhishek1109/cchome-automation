@@ -1,0 +1,62 @@
+{
+    "development" : {
+        "org": {
+            "valid" : "torg",
+            "invalid" : "testingshdk"
+        },
+        "challenge" : {
+            "expired" : "hiXSY",
+            "notStarted":"50fgm",
+            "valid"   : "rkrNl",
+            "imageType" : "Nrggb",
+            "videoType" : "b81GO",
+            "invalid" : "yJWBi0",
+            "singleSubmission" : "iTmCW"
+        },
+        "project" : {
+            "valid" : "IqnV2",
+            "invalid" : "bzi2Y0",
+            "updateProject": "bjTZf"
+        }
+    },
+    
+    "stage" : {
+        "org": {
+            "valid" : "torg",
+            "invalid" : "1212323"
+        },
+        "challenge" : {
+            "expired" : "hiXSY",
+            "notStarted":"50fgm",
+            "valid"   : "rkrNl",
+            "imageType" : "Nrggb",
+            "videoType" : "b81GO",
+            "invalid" : "yJWBi0",
+            "singleSubmission" : "iTmCW"
+        },
+        "project" : {
+            "valid" : "IqnV2",
+            "invalid" : "bzi2Y0",
+            "updateProject": "bjTZf"
+        }
+    },
+
+    "production" : {
+        "org": {
+            "valid" : "torg",
+            "invalid" : "1212323"
+        },
+        "challenge" : {
+            "expired" : "JKOVf",
+            "valid"   : "kkYrY",
+            "imageType" : "fAFL0",
+            "videoType" : "1AV6r",
+            "invalid" : "yJWBi0"
+        },
+        "project" : {
+            "valid" : "cISUb",
+            "invalid" : "IfHD0r",
+            "updateProject" : ""
+        }
+    }
+}

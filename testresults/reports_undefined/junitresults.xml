@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sample Tests" timestamp="2017-02-14T13:47:29" hostname="localhost" time="15.752" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="Sample Tests" name="Should redirect to login page safely" time="15.75" />
+ </testsuite>
+</testsuites>
