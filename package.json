@@ -33,6 +33,7 @@
     "jasmine-spec-reporter": "^2.4.0"
   },
   "devDependencies": {
+    "deasync-promise": "^1.0.1",
     "gulp": "^3.9.1",
     "phantomjs": "^2.1.7",
     "protractor": "latest"
